@@ -1,0 +1,18 @@
+                            
+/* TEAM */
+                
+Developer: Dibyendu Nath
+Site: http://dnath.github.io
+Twitter: @dibyendu_nath
+Location: Santa Barbara, CA, United States
+
+/* THANKS */
+
+Name: http://gumbyframework.com/
+
+/* SITE */
+               
+Last update: October 2014             
+Standards: HTML5, CSS, SASS      
+Components: Modernizr, jQuery, Gumby      
+Software: Compass, Claymate, Bower
