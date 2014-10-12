@@ -5,7 +5,9 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope="" itemtype="http://schema.org/Product"> <!--<![endif]-->
+<!--[if gt IE 9]><!--> 
+<html class="no-js" lang="en" itemscope="" itemtype="http://schema.org/Product">
+<!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 
@@ -14,7 +16,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<title>Dibyendu Nath | Dev - Personal Website</title>
-	<meta name="description" content="">
+	<meta name="description" content="Personal Website of Dibyendu 'Dev' Nath, Coder, Dreamer, Wanderer, Fauxtographer">
 	<meta name="keywords" content="dev,dibyendu,nath,dnath,devnath,racelab,stochss,ucsb,appfolio,mcafee,eeff,encryption,cloud computing,santa barbara">
 	<meta name="author" content="humans.txt">
 
@@ -24,7 +26,7 @@
 	<meta property="fb:page_id" content="">
 	<meta property="og:image" content="">
 	<meta property="og:description" content="">
-	<meta property="og:title" content="">
+	<meta property="og:title" content="Personal Website of Dibyendu Nath | Dev">
 
 	<!-- Google+ Metadata /-->
 	<meta itemprop="name" content="">
@@ -33,45 +35,132 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-	<!-- We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
-		 However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 	<script src="bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
+
+  <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 
 <body>
-  <div class="navbar" id="nav1">
+  <div class="super_wrapper">
+  <div class="navcontain">
+    <div class="navbar" gumby-fixed="top" id="nav1">
     <div class="row">
       <a class="toggle" gumby-trigger="#nav1 &gt; .row &gt; ul" href="#"><i class="icon-menu"></i></a>
       <h1 class="four columns logo">
-        <a href="#">
-          <img src="img/dev_dnath_logo.png" gumby-retina="">
-        </a>
+        <a href="#"><img src="img/dev_dnath_logo.png" gumby-retina=""></a>
       </h1>
-      <nav class="pull_right">
-        <ul class="eight columns">
-        <li><a href="bio.html">About Me</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li>
-          <a href="#">Stuff+</a>
+      <ul class="eight columns main-nav">
+        <li class="pull_right" style="padding-left:10px">
+          <p class="medium pretty default btn icon-github icon-left" style="">
+            <a target="_blank" href="https://github.com/dnath">GitHub</a>
+          </p>
+        </li>
+        <!-- <li class="pull_right">
+          <a href="#">Stuff+ </a>
           <div class="dropdown">
             <ul>
               <li><a href="photos.html">Photography</a></li>
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Item</a></li>
+              <li><a href="#">Paintings</a></li>
+              <li><a href="#">Curio</a></li>
             </ul>
           </div>
-        </li>
-        <p class="medium pretty default btn icon-github icon-left">
-          <a href="https://github.com/dnath">GitHub</a>
-        </p>
-        <!-- <li class="field"><input class="search input" type="search" placeholder="Search"></li> -->
-      </nav>
+        </li> -->
+        <li class="pull_right"><a href="projects.html">Projects</a></li>
+        <li class="pull_right"><a href="research.html">Research</a></li>
+        <!-- <li><a href="bio.html">About Me</a></li> -->
       </ul>
     </div>
+    </div>
+  </div>
+    
+  <div class="wrapper shaded">
+  <div class="row">
+    <div class="metro btn default rounded pull_left">
+      <a href="files/resume_dibyendu_nath.pdf">Resume <i class="icon-download"></i></a>
+    </div>
+    <div class="metro btn gplus pull_right">
+      <a target="_blank" href="https://plus.google.com/u/0/+DibyenduNath-Dev-UCSB"><i class="social icon-gplus"></i></a>
+    </div>
+    <div class="metro btn linkedin pull_right">
+      <a target="_blank" href="https://www.linkedin.com/in/dibyendunath"><i class="social icon-linkedin"></i></a>
+    </div>
+    <div class="metro btn twitter pull_right">
+      <a target="_blank" href="https://twitter.com/Dibyendu_Nath"><i class="social icon-twitter"></i></a>
+    </div>
+  </div>
+  </div>
+  
+
+  <div class="row" style="padding-top:20px">
+    <div class="row">
+      <div class="four columns image rounded">
+        <img src="img/dibyendu_nath.jpg" alt="Dibyendu Nath | Dev"/>
+      </div>
+      <article class="eight columns">
+        <h2>Hello, World !</h2>
+        
+        <p>Hi, I'm <strong>Dibyendu</strong>, also known as <strong>Dev</strong>. First things first, a small intro from yours truly. To keep it brief and simple, I'm a <strong>Software Craftsmith</strong> ... half <em>Java Junkie,</em> half <em>C++ worshipper</em> and (sic:) one-third <em>Pythonista</em> with a splash of <em>Ruby.</em></p>
+
+        <p>At present, I am a CS grad student at the <a href="http://www.ucsb.edu">University of California, Santa Barbara,</a> pursuing a Master's in <a href="http://www.cs.ucsb.edu">Computer Science.</a> Till quite recently I was a Software Engineering Intern at <a href="http://www.appfolio.com">AppFolio,</a> working on their data analytics team. Before starting graduate studies at UC Santa Barbara, I was a Software Development Engineer at <a href="http://www.mcafee.com">McAfee</a> in Bangalore, India.</p>
+      </article>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="four columns">
+        <h5>Twitter Feed</h5>
+        <a class="twitter-timeline" width="360" height="500" href="https://twitter.com/Dibyendu_Nath" data-widget-id="287681856625836032">Tweets by @Dibyendu_Nath</a>
+        <script>
+          !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0];
+            if(!d.getElementById(id)){
+              js=d.createElement(s);js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+            }
+          }(document,"script","twitter-wjs");
+        </script>
+      </div>
+
+      <div class="eight columns" style="padding-left:20px;padding-top:20px">
+        <h5 class="text_center"><i class="icon-mail"></i> dnath [at] cs . ucsb . edu</h5> 
+      </div>
+       
+      <div class="eight columns" style="padding-left:20px;padding-top:50px">
+        <div class="four columns image">
+          <a target="_blank" href="http://www.ucsb.edu/"><img src="img/ucsb_logo.jpg" alt="University of California, Santa Barbara"></img></a>
+        </div> 
+        <div class="two columns image">
+          <a target="_blank" href="http://www.mcafee.com/"><img src="img/mcafee_logo.jpg" alt="McAfee Inc. | Intel Security"></img></a>
+        </div>
+        <div class="two columns image">
+          <a target="_blank" href="http://www.appfolio.com/"><img src="img/appfolio_logo.png" alt="AppFolio Inc."></img></a>
+        </div>
+        <div class="two columns image">
+          <a target="_blank" href="http://cs.ucsb.edu/"><img src="img/ucsb_cs_logo.png" alt="UCSB Computer Science"></img></a>
+        </div>
+        <div class="three columns image">
+          <a target="_blank" href="http://www.cs.ucsb.edu/~ckrintz/racelab.html"><img src="img/racelab_logo.png" alt="RACE Lab, UC Santa Barbara"></img></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-bottom:80px">
+    </div>
+
+  </div>
+  
+  <div class="wrapper shaded footer">
+    <div class="row">
+    <div class="pull_left">
+      <strong>Dibyendu Nath &copy; 2014</strong> 
+    </div>
+    <div class="pull_right">
+      <strong>October 2014</strong> 
+    </div>
+  </div>
   </div>
 
 
@@ -136,6 +225,17 @@
 	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
 	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
 	<![endif]-->
+
+  <!-- Google Analytics
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-37271883-3', 'auto');
+    ga('send', 'pageview');
+  </script>-->
 
   </body>
 </html>
