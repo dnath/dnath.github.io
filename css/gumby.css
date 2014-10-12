@@ -1682,7 +1682,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
-.super_wrapper { min-height: 100%; height: auto !important; /* IE6 support */ height: 100%; margin: 0 auto -3em; /* the bottom margin is the negative value of the footer's height */ }
+.super_wrapper { min-height: 100%; height: auto !important; /* IE6 support */ height: 100%; margin: 0 auto -4em; /* the bottom margin is the negative value of the footer's height */ }
 
 .social { text-color: white; }
 
@@ -1702,4 +1702,4 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 @media only screen and (max-width: 768px) { .navcontain { height: 60px; } }
 .text_center { text-align: center; }
 
-.footer, .push { height: 3em; }
+.footer, .push { height: 4em; }
