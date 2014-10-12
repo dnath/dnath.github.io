@@ -1,0 +1,66 @@
+// Your custom SCSS should be written here...
+
+.super_wrapper {
+  min-height: 100%;
+  height: auto !important; /* IE6 support */
+  height: 100%;
+  margin: 0 auto -4em; /* the bottom margin is the negative value of the footer's height */
+}
+
+// social
+
+.social {
+  text-color: white;
+}
+
+.btn.twitter {
+  background: #00aced;
+  border: 1px solid #00aced;
+  :hover {
+    background: #21c2ff;
+  }
+}
+
+.btn.linkedin {
+  background: #0077b5;
+  border: 1px solid #0077b5;
+  :hover {
+    background: #0089d1;
+  }
+}
+
+.btn.gplus {
+  background: #c63d2d;
+  border: 1px solid #c63d2d;
+  :hover {
+    background: #e84c3A;
+  }
+}
+
+.wrapper.shaded {
+  background-color: #E9E9E9 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navcontain {
+  height: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .navcontain {
+    height: 60px;
+  }
+}
+
+// text
+
+.text_center {
+  text-align:center;
+}
+
+// footer
+
+.footer, .push {
+  height: 4em;
+}
+
