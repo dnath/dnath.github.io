@@ -70,6 +70,8 @@
   color: #555555;
 }
 
-a:hover { color: #c03d20; }
-a:hover.red_glow { text-shadow: 0 0 0.5px #ff4A64; }
+a:hover.red_glow { 
+  color: #c03d20;
+  text-shadow: 0 0 0.5px #ff4A64; 
+}
 
