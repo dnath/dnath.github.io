@@ -38,7 +38,7 @@
 }
 
 .wrapper.shaded {
-  background-color: #E9E9E9 !important;
+  background-color: #e9e9e9 !important;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -55,12 +55,22 @@
 // text
 
 .text_center {
-  text-align:center;
+  text-align: center;
 }
 
 // footer
 
 .footer, .push {
   height: 4em;
+}
+
+a.red_glow {
+  :hover {
+    text-shadow: 0 0 0.5px #ff4A64;
+  }
+}
+
+.default_color {
+  color: #555555;
 }
 

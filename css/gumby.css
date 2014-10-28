@@ -668,6 +668,7 @@ p.lead { font-size: 20px; font-size: 1.25rem; margin-bottom: 18px; }
 
 a { color: #d04526; text-decoration: none; outline: 0; line-height: inherit; }
 a:hover { color: #c03d20; }
+a:hover.red_glow { text-shadow: 0 0 0.5px #ff4A64; }
 
 /*=====================================================
  Lists  ======================================================*/
@@ -1695,7 +1696,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .btn.gplus { background: #c63d2d; border: 1px solid #c63d2d; }
 .btn.gplus :hover { background: #e84c3A; }
 
-.wrapper.shaded { background-color: #E9E9E9 !important; padding-top: 10px; padding-bottom: 10px; }
+.wrapper.shaded { background-color: #e9e9e9 !important; padding-top: 10px; padding-bottom: 10px; }
 
 .navcontain { height: 60px; }
 
@@ -1703,3 +1704,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .text_center { text-align: center; }
 
 .footer, .push { height: 4em; }
+
+a.red_glow :hover { text-shadow: 0 0 0.5px #ff4A64; }
+
+.default_color { color: #555555; }
