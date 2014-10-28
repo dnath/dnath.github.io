@@ -668,7 +668,6 @@ p.lead { font-size: 20px; font-size: 1.25rem; margin-bottom: 18px; }
 
 a { color: #d04526; text-decoration: none; outline: 0; line-height: inherit; }
 a:hover { color: #c03d20; }
-a:hover.red_glow { text-shadow: 0 0 0.5px #ff4A64; }
 
 /*=====================================================
  Lists  ======================================================*/
@@ -1705,6 +1704,8 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 
 .footer, .push { height: 4em; }
 
-a.red_glow :hover { text-shadow: 0 0 0.5px #ff4A64; }
-
 .default_color { color: #555555; }
+
+a:hover { color: #c03d20; }
+
+a:hover.red_glow { text-shadow: 0 0 0.5px #ff4A64; }
