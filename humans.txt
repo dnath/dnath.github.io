@@ -3,8 +3,7 @@
                 
 Developer: Dibyendu Nath
 Site: http://dnath.github.io
-Twitter: @dibyendu_nath
-Location: Santa Barbara, CA, United States
+Twitter: @devn_th
 
 /* THANKS */
 
