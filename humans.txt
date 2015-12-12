@@ -1,9 +1,9 @@
                             
 /* TEAM */
                 
-Developer: Dibyendu Nath
+Developer: Dibyendu 'Dev' Nath
 Site: http://dnath.github.io
-Twitter: @devn_th
+Twitter: @d3vnath
 
 /* THANKS */
 
