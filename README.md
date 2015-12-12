@@ -6,6 +6,6 @@ My GitHub Homepage
 website: [https://dnath.github.io](https://dnath.github.io)
 alias: [https://dibyendunath.com](https://dibyendunath.com)
 
-Twitter: [https://twitter.com/d3vnath](@d3vnath)
-LinkedIn: [https://www.linkedin.com/in/dibyendunath](@dibyendunath)
-GitHub: [https://github.com/dnath](@dnath)
+Twitter: [@d3vnath](https://twitter.com/d3vnath)
+LinkedIn: [@dibyendunath](https://www.linkedin.com/in/dibyendunath)
+GitHub: [@dnath](https://github.com/dnath)
