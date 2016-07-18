@@ -1,7 +1,7 @@
                             
 /* TEAM */
                 
-Developer: Dibyendu 'Dev' Nath
+Developer: Dev Nath
 Site: http://dnath.github.io
 Twitter: @d3vnath
 
