@@ -1,0 +1,17 @@
+                            
+/* TEAM */
+                
+Developer: Dev Nath
+Site: http://dnath.github.io
+Twitter: @d3vnath
+
+/* THANKS */
+
+Name: http://gumbyframework.com/
+
+/* SITE */
+               
+Last update: October 2014             
+Standards: HTML5, CSS, SASS      
+Components: Modernizr, jQuery, Gumby      
+Software: Compass, Claymate, Bower

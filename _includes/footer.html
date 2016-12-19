@@ -1,0 +1,70 @@
+<!-- copyright footer : start -->
+<div class="wrapper shaded footer">
+  <div class="row">
+  <div class="pull_left">
+    <strong>{{ site.fullname }} &copy; {{ site.time | date: "%Y" }}</strong>
+  </div>
+  <div class="pull_right">
+    <strong>{{ site.time | date: "%B %Y" }}</strong>
+  </div>
+  </div>
+</div>
+<!-- copyright footer : end -->
+
+<!-- Grab Google CDN's jQuery, fall back to local if offline -->
+<!-- 2.0 for modern browsers, 1.10 for .oldie -->
+<script>
+var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
+if(!oldieCheck){document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
+}else{document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');}
+</script>
+<script>
+if(!window.jQuery){if(!oldieCheck){document.write(
+'<script src="bower_components/gumby/js/libs/jquery-2.0.2.min.js"><\/script>');
+}else{document.write('<script src="bower_components/gumby/js/libs/jquery-1.10.1.min.js"><\/script>');}}
+</script>
+
+<script src="js/gumby.min.js"></script>
+
+<!--
+Google's recommended deferred loading of JS
+gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+
+Note: If you opt to use this method of defered loading,
+ensure that any javascript essential to the initial
+display of the page is included separately in a normal
+script tag.
+
+<script>
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/libs/gumby.min.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+-->
+
+<script src="bower_components/gumby/js/plugins.js"></script>
+<script src="bower_components/gumby/js/main.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-64295811-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->

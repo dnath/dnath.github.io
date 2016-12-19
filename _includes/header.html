@@ -1,0 +1,57 @@
+<!-- navbar -->
+<div class="navcontain">
+  <div class="navbar" gumby-fixed="top" id="nav1">
+  <div class="row">
+    <a class="toggle" gumby-trigger="#nav1 &gt; .row &gt; ul" href="#"><i class="icon-menu"></i></a>
+    <h1 class="four columns logo">
+      <a href="{{ site.url }}">
+      <img alt="Dev Nath" src="img/devnath_logo.png" gumby-retina="">
+      </a>
+    </h1>
+    <ul class="eight columns main-nav">
+      <li class="pull_right padding_left_20">
+        <p class="medium pretty default btn icon-github icon-left">
+          <a target="_blank" href="https://github.com/{{ site.github_username }}">GitHub</a>
+        </p>
+      </li>
+      {% if page.title == "Projects" %}
+      <li class="pull_right"><a href="#">Projects</a></li>
+      {% else %}
+      <li class="pull_right"><a href="projects.html">Projects</a></li>
+      {% endif %}
+      {% if page.title == "Homepage" %}
+      <li class="pull_right"><a href="#">Home</a></li>
+      {% else %}
+      <li class="pull_right"><a href="index.html">Home</a></li>
+      {% endif %}
+    </ul>
+  </div>
+  </div>
+</div>
+<!-- navbar -->
+
+<!-- social -->
+<div class="wrapper shaded">
+<div class="row">
+  <div class="metro btn default rounded pull_left">
+    <a href="{{ resume_loc }}">Resume <i class="icon-download"></i></a>
+  </div>
+  <div class="metro btn gplus pull_right">
+    <a target="_blank" href="https://plus.google.com/u/0/{{ site.gplus_handle }}">
+      <i class="social icon-gplus"></i><span class="hide">Google+ | {{ site.fullname }}</span>
+    </a>
+  </div>
+  <div class="metro btn linkedin pull_right">
+    <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_handle }}">
+      <i class="social icon-linkedin"></i><span class="hide">LinkedIn | {{ site.fullname }}</span>
+    </a>
+  </div>
+  <div class="metro btn twitter pull_right">
+    <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="social icon-twitter"></i>
+      <span class="hide">Twitter | {{ site.fullname }} : @{{ site.twitter_username }}</span>
+    </a>
+  </div>
+</div>
+</div>
+<!-- social -->
