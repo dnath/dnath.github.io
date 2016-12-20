@@ -4,3 +4,7 @@
 # caches
 .sass-cache/
 
+# jekyll
+.jekyll-metadata
+_site
+
