@@ -5,19 +5,15 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://dnath.github.io/</loc>
-  <lastmod>2014-10-12T23:37:37+00:00</lastmod>
+  <loc>http://devnath.net</loc>
+  <lastmod>2016-12-22T18:37:37+00:00</lastmod>
 </url>
 <url>
-  <loc>http://dnath.github.io/projects.html</loc>
-  <lastmod>2014-10-12T23:37:37+00:00</lastmod>
+  <loc>http://devnath.net/projects.html</loc>
+  <lastmod>2016-22-22T18:37:37+00:00</lastmod>
 </url>
 <url>
-  <loc>http://dnath.github.io/research.html</loc>
-  <lastmod>2014-10-12T23:37:37+00:00</lastmod>
-</url>
-<url>
-  <loc>http://dnath.github.io/files/resume_dibyendu_nath.pdf</loc>
-  <lastmod>2014-10-12T23:37:37+00:00</lastmod>
+  <loc>http://devnath.net/resume_dev_nath.pdf</loc>
+  <lastmod>2016-12-22T18:37:37+00:00</lastmod>
 </url>
 </urlset>
