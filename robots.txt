@@ -1,9 +1,4 @@
 User-agent: *
-Disallow: /bower_components/
-Disallow: /sass/
 Disallow: Gemfile
 Disallow: Gemfile.lock
 Disallow: config.rb
-Disallow: /js/
-Disallow: /css/
-
