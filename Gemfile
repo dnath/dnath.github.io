@@ -14,6 +14,14 @@ gem "jekyll", "3.3.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 
+gem "modular-scale", '1.0.6'
+gem "sass", "3.2.19"
+gem "sassy-math", "1.5.1"
+gem "compass", "0.12.6"
+
+# This is the new bundler dependency I added to downgrade from sass 3.4
+# gem "sass", "~> 3.2.13"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
