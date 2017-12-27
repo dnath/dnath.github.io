@@ -13,6 +13,7 @@ $color_tia_maria_approx: #c03d20;
 $color_carnation_approx: #ff4a64;
 $color_delta_approx: #a2a2a2;
 $color_chicago_approx: #5a5a5a;
+$color_indian_red_approx: #c04480;
 
 .super_wrapper {
   min-height: 100%;
@@ -46,10 +47,10 @@ $color_chicago_approx: #5a5a5a;
     }
   }
   &.instagram {
-    background: $color_fuscous_gray_approx;
-    border: 1px solid $color_fuscous_gray_approx;
+    background: $color_indian_red_approx;
+    border: 1px solid $color_indian_red_approx;
     :hover {
-      background: $color_gray_nurse_approx;
+      background: $color_indian_red_approx;
     }
   }
 }
