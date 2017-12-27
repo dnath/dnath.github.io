@@ -45,6 +45,13 @@ $color_chicago_approx: #5a5a5a;
       background: $color_flamingo_approx;
     }
   }
+  &.instagram {
+    background: $color_fuscous_gray_approx;
+    border: 1px solid $color_fuscous_gray_approx;
+    :hover {
+      background: $color_gray_nurse_approx;
+    }
+  }
 }
 .navcontain {
   height: 60px;
