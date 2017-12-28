@@ -128,6 +128,10 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.dont-show-me-on-phones{
+  @include hidden(portrait-tablets);
+  @include visible(tablets);
+}
 i[class^="icon-"].no_margin {
   margin: 0 auto;
 }
