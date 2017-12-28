@@ -121,14 +121,14 @@ a {
   padding-bottom: 20px;
 }
 .footer_padding {
-  padding-bottom: 70px;
+  padding-bottom: 10px;
 }
 .wrapper.shaded {
   background-color: $color_gray_nurse_approx !important;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.dont-show-me-on-phones{
+.dont-show-me-on-phones {
   @include hidden(portrait-tablets);
   @include visible(tablets);
 }
