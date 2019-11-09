@@ -1,6 +1,6 @@
 # My Personal Website
 
-dnath.github.io | [devnath.net](http://devnath.net)
+dnath.github.io | [devnath.net](https://devnath.net)
 
 author: Dibyendu "Dev" Nath
 
@@ -45,9 +45,8 @@ Customize css or scss in `bower_components/gumby/sass/_custom.scss`.
 Useful compass commands:
 
 ```shell
-compass compile
-compass watch
-compass compile -s compressed
+compass compile bower_components/gumby
+compass watch --output-style compressed bower_components/gumby
 ```
 
 More info at https://gumbyframework.com.

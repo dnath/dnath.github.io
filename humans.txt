@@ -1,6 +1,6 @@
-                            
+
 /* TEAM */
-                
+
 Developer: Dev Nath
 Site: http://devnath.net
 Twitter: @askdevnath
@@ -10,8 +10,8 @@ Twitter: @askdevnath
 Name: http://gumbyframework.com/
 
 /* SITE */
-               
-Last update: October 2014             
-Standards: HTML5, CSS, SASS      
-Components: Modernizr, jQuery, Gumby      
+
+Last update: October 2019
+Standards: HTML5, CSS, SASS
+Components: Modernizr, jQuery, Gumby
 Software: Compass, Claymate, Bower
