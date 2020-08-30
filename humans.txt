@@ -3,7 +3,7 @@
 
 Developer: Dev Nath
 Site: http://devnath.net
-Twitter: @askdevnath
+Twitter: @dev__nath
 
 /* THANKS */
 
