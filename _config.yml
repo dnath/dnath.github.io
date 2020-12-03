@@ -21,9 +21,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://devnath.net" # the base hostname & protocol for your site, e.g. http://example.com
 fullname: Dev Nath
 
-twitter_username: dev__nath
+twitter_username: d3v_nath
 github_username:  dnath
-facebook_username:  devnath.web
+facebook_username:  d3v.nath
 instagram_username: dev.nath
 
 linkedin_handle:  dev-nath
