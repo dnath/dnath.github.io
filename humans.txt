@@ -3,7 +3,7 @@
 
 Developer: Dev Nath
 Site: http://devnath.net
-Twitter: @d3v_nath
+Twitter: @devnath_2
 
 /* THANKS */
 
@@ -11,7 +11,7 @@ Name: http://gumbyframework.com/
 
 /* SITE */
 
-Last update: December 2020
+Last update: December 2023
 Standards: HTML5, CSS, SASS
 Components: Modernizr, jQuery, Gumby
 Software: Compass, Claymate, Bower
