@@ -11,7 +11,5 @@ Name: http://gumbyframework.com/
 
 /* SITE */
 
-Last update: December 2023
-Standards: HTML5, CSS, SASS
-Components: Modernizr, jQuery, Gumby
-Software: Compass, Claymate, Bower
+Last update: July 2023
+Standards: HTML5, CSS
