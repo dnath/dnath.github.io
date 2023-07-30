@@ -1,10 +1,3 @@
 # OS crumbs
 .DS_store
 
-# caches
-.sass-cache/
-
-# jekyll
-.jekyll-metadata
-_site
-
