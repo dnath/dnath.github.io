@@ -3,11 +3,6 @@
 
 Developer: Dev Nath
 Site: http://devnath.net
-Twitter: @devnath_2
-
-/* THANKS */
-
-Name: http://gumbyframework.com/
 
 /* SITE */
 
