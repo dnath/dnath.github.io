@@ -43,6 +43,16 @@
   width: 100%;
 }
 
+.site-footer {
+  padding: 40px 30px 30px;
+  font-family: serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666;
+  text-align: center;
+  clear: both;
+}
+
 /* Tablet */
 @media only screen and (min-width: 768px) {
   .info {
